@@ -1,0 +1,16 @@
+# ReelForge Production Dependencies
+# Install: pip install -r requirements.txt
+
+aiogram>=3.17.0,<4.0.0
+pydantic>=2.10.0,<2.11.0
+pydantic-settings>=2.7.0,<3.0.0
+yt-dlp>=2025.1.1
+faster-whisper>=1.1.0
+httpx>=0.28.0
+loguru>=0.7.2
+aiosqlite>=0.20.0
+aiofiles>=24.1.0
+Pillow>=10.0.0
+
+# Optional: Redis for FSM state persistence (recommended for production)
+# redis==5.3.0

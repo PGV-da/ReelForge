@@ -1,0 +1,48 @@
+# ── Python ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ── Virtual Environment ──────────────────────
+.venv/
+venv/
+env/
+
+# ── Environment & Secrets ────────────────────
+.env
+*.env.local
+cookies.txt
+
+# ── Temporary Media Files ────────────────────
+/tmp/reelforge/
+logs/
+temp/
+*.mp4
+*.mp3
+*.wav
+*.srt
+*.jpg
+*.jpeg
+*.png
+
+# ── IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Docker ───────────────────────────────────
+docker-compose.override.yml
+
